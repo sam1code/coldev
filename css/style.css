@@ -1,0 +1,260 @@
+.bgimg {
+    background-image: url(../photos/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.harderset {
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.harderset h2 {
+    font-size: 42px;
+}
+.harderset h1 {
+    font-size: 82px;
+    font-weight: bold;
+}
+/* ..........................ourServices.......................... */
+.ourservices {
+    padding: 100px 0px 60px;
+    height: 700px;
+} 
+.rawsetting {
+    margin: 80px 0px !important;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgsetting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.fa-android {
+    margin-top: 20px;
+}
+.fa-desktop {
+    margin-top: 26px;
+}
+.fa-lock {
+    margin-top: 25px;
+}
+
+.rawsetting p{
+    padding: 10px;
+    color: #6c757d !important;
+}
+.rawsetting h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ..........................ourServices.......................... */
+.portfolio {
+    width: 100%;
+    height: 1100px;
+    padding-top: 50px;
+}
+.portfolio h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.card {
+    margin-top: 40px;
+}
+
+/* ..........................OURTEAM.......................... */
+.ourteam {
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 100px;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.teamsetting {
+   
+
+}
+
+.form123 {
+    align-items: center;
+    width: 60vw;
+}
+
+.contact {
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+#contact h1 {
+    margin-top: 50px !important;
+    font-size: 50px;
+    font-weight: bold;
+}
+.fll{
+    height: fit-content;
+}
+
+/* footer   */
+.footer h6 {
+    text-align: center;
+    padding-top: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////RESPONSIVE///////////////////// */
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .harderset h2 {
+        font-size: 34px;
+    }
+    .harderset h1 {
+        font-size: 62px;
+        font-weight: bold;
+    }
+    .ourservices {
+      
+        height: 800px !important;
+    } 
+    .portfolio {
+        height: 800px;
+    }
+    .ourteam {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+
+
+}
+@media(min-width: 575px) and (max-width: 767px){
+    .harderset h2 {
+        font-size: 28px;
+    }
+    .harderset h1 {
+        font-size: 52px;
+        font-weight: bold;
+    }
+
+    .ourservices {
+      
+        height: 900px !important;
+    } 
+
+
+
+    .portfolio {
+        height: 3000px;
+    }
+
+
+    .ourteam {
+        height: 1800px;
+        padding: 100px 0px 60px;
+        width: 100%;
+        height: 1200px;
+        margin-bottom: 100px;
+    }
+    .footer h6 {
+        text-align: center;
+        padding-top: 80vh;
+    }
+
+
+}
+@media(min-width: 480px) and (max-width: 574px){
+    .harderset h2 {
+        font-size: 22px;
+    }
+    .harderset h1 {
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .ourservices {
+      
+        height: 1400px !important;
+    } 
+
+
+
+    .portfolio {
+        width: 100%;
+        height: 2500px;
+        padding-top: 50px;
+    }
+
+
+    .ourteam {
+        height: 1200px;
+        padding: 100px 0px 60px;
+        width: 100%;
+        height: 1200px;
+        margin-bottom: 100px;
+    }
+    .footer h6 {
+        text-align: center;
+        padding-top: 80vh;
+    }
+     
+}
+
+@midia(max-width: 469){
+    .harderset h2 {
+        font-size: 18px;
+    }
+    .harderset h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .ourservices {
+      
+        height: 1500px !important;
+    } 
+
+
+
+    .portfolio {
+        width: 100%;
+        height: 1800px;
+        padding-top: 50px;
+    }
+
+
+    .ourteam {
+        height: 1200px;
+        padding: 100px 0px 60px;
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 100px;
+    }
+    
+
+}
